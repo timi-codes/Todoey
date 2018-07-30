@@ -13,8 +13,9 @@
 		B4396DD621071B07005195C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4396DD421071B07005195C9 /* Main.storyboard */; };
 		B4396DD821071B07005195C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4396DD721071B07005195C9 /* Assets.xcassets */; };
 		B4396DDB21071B07005195C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4396DD921071B07005195C9 /* LaunchScreen.storyboard */; };
-		B4396DEC2108D4A1005195C9 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B4396DEA2108D4A1005195C9 /* DataModel.xcdatamodeld */; };
 		B4396E0F2109FC23005195C9 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4396E0E2109FC23005195C9 /* CategoryViewController.swift */; };
+		B4D03218210B83BA0000A0BD /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D03217210B83BA0000A0BD /* Category.swift */; };
+		B4D0321B210B84580000A0BD /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D0321A210B84580000A0BD /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +28,9 @@
 		B4396DD721071B07005195C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4396DDA21071B07005195C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4396DDC21071B07005195C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B4396DEB2108D4A1005195C9 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		B4396E0E2109FC23005195C9 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		B4D03217210B83BA0000A0BD /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Category.swift; path = ../../../../Documents/Category.swift; sourceTree = "<group>"; };
+		B4D0321A210B84580000A0BD /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		D05237D49EE635C54FE1080F /* Pods-Todoey.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todoey.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Todoey/Pods-Todoey.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,7 +97,8 @@
 		B4396DE2210749E0005195C9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				B4396DEA2108D4A1005195C9 /* DataModel.xcdatamodeld */,
+				B4D03217210B83BA0000A0BD /* Category.swift */,
+				B4D0321A210B84580000A0BD /* Item.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -242,8 +245,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4396E0F2109FC23005195C9 /* CategoryViewController.swift in Sources */,
+				B4D03218210B83BA0000A0BD /* Category.swift in Sources */,
 				B4396DD321071B07005195C9 /* TodoListViewController.swift in Sources */,
-				B4396DEC2108D4A1005195C9 /* DataModel.xcdatamodeld in Sources */,
+				B4D0321B210B84580000A0BD /* Item.swift in Sources */,
 				B4396DD121071B07005195C9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,19 +437,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		B4396DEA2108D4A1005195C9 /* DataModel.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				B4396DEB2108D4A1005195C9 /* DataModel.xcdatamodel */,
-			);
-			currentVersion = B4396DEB2108D4A1005195C9 /* DataModel.xcdatamodel */;
-			path = DataModel.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = B4396DC521071B07005195C9 /* Project object */;
 }
